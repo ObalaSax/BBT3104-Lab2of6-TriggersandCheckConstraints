@@ -1,5 +1,4 @@
 services:
-
   mysql:
     image: mysql:8.3.0
     hostname: mysql-8.3.0-bbt3104-lab2
@@ -21,7 +20,7 @@ services:
       chmod 644 /etc/mysql/my.cnf &&
       docker-entrypoint.sh mysqld
       "
-  
+
   phpmyadmin:
     image: phpmyadmin:5.2.1
     hostname: phpmyadmin-5.2.1-bbt3104-lab2
