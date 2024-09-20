@@ -3,9 +3,9 @@ USE `dreamhome`;
 
 
 -- MySQL dump 10.13  Distrib 8.0.28, for Win64 (x86_64)
---
+-- 
 -- Host: localhost    Database: dreamhome
--- ------------------------------------------------------
+-- ------------------------------------------------------ 
 -- Server version	8.0.28
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -18,9 +18,9 @@ USE `dreamhome`;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
---
+-- 
 -- Table structure for table `Branch`
---
+-- 
 
 DROP TABLE IF EXISTS `Branch`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -34,9 +34,9 @@ CREATE TABLE `Branch` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
+-- 
 -- Dumping data for table `Branch`
---
+-- 
 
 LOCK TABLES `Branch` WRITE;
 /*!40000 ALTER TABLE `Branch` DISABLE KEYS */;
@@ -44,9 +44,9 @@ INSERT INTO `Branch` VALUES ('B002','56 Clover Dr','London','NW10 6EU'),('B003',
 /*!40000 ALTER TABLE `Branch` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
+-- 
 -- Table structure for table `Client`
---
+-- 
 
 DROP TABLE IF EXISTS `Client`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -62,9 +62,9 @@ CREATE TABLE `Client` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
+-- 
 -- Dumping data for table `Client`
---
+-- 
 
 LOCK TABLES `Client` WRITE;
 /*!40000 ALTER TABLE `Client` DISABLE KEYS */;
@@ -72,9 +72,9 @@ INSERT INTO `Client` VALUES ('CR56','Aline','Stewart','0141-848-1825','Flat',350
 /*!40000 ALTER TABLE `Client` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
+-- 
 -- Table structure for table `PrivateOwner`
---
+-- 
 
 DROP TABLE IF EXISTS `PrivateOwner`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -89,9 +89,9 @@ CREATE TABLE `PrivateOwner` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
+-- 
 -- Dumping data for table `PrivateOwner`
---
+-- 
 
 LOCK TABLES `PrivateOwner` WRITE;
 /*!40000 ALTER TABLE `PrivateOwner` DISABLE KEYS */;
@@ -99,9 +99,9 @@ INSERT INTO `PrivateOwner` VALUES ('CO40','Tina','Murphy','63 Well St, Glasgow G
 /*!40000 ALTER TABLE `PrivateOwner` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
+-- 
 -- Table structure for table `PropertyForRent`
---
+-- 
 
 DROP TABLE IF EXISTS `PropertyForRent`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -127,9 +127,9 @@ CREATE TABLE `PropertyForRent` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
+-- 
 -- Dumping data for table `PropertyForRent`
---
+-- 
 
 LOCK TABLES `PropertyForRent` WRITE;
 /*!40000 ALTER TABLE `PropertyForRent` DISABLE KEYS */;
@@ -137,9 +137,9 @@ INSERT INTO `PropertyForRent` VALUES ('PA14','16 Holhead','Aberdeen','AB7 5SU','
 /*!40000 ALTER TABLE `PropertyForRent` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
+-- 
 -- Table structure for table `Registration`
---
+-- 
 
 DROP TABLE IF EXISTS `Registration`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -158,9 +158,9 @@ CREATE TABLE `Registration` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
+-- 
 -- Dumping data for table `Registration`
---
+-- 
 
 LOCK TABLES `Registration` WRITE;
 /*!40000 ALTER TABLE `Registration` DISABLE KEYS */;
@@ -168,9 +168,9 @@ INSERT INTO `Registration` VALUES ('CR56','B003','SG37','2000-04-11'),('CR62','B
 /*!40000 ALTER TABLE `Registration` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
+-- 
 -- Table structure for table `Staff`
---
+-- 
 
 DROP TABLE IF EXISTS `Staff`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -190,9 +190,9 @@ CREATE TABLE `Staff` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
+-- 
 -- Dumping data for table `Staff`
---
+-- 
 
 LOCK TABLES `Staff` WRITE;
 /*!40000 ALTER TABLE `Staff` DISABLE KEYS */;
@@ -200,9 +200,9 @@ INSERT INTO `Staff` VALUES ('SA9','Mary','Howe','Assistant','F','1970-02-19',900
 /*!40000 ALTER TABLE `Staff` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
+-- 
 -- Table structure for table `Viewing`
---
+-- 
 
 DROP TABLE IF EXISTS `Viewing`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -219,9 +219,9 @@ CREATE TABLE `Viewing` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
+-- 
 -- Dumping data for table `Viewing`
---
+-- 
 
 LOCK TABLES `Viewing` WRITE;
 /*!40000 ALTER TABLE `Viewing` DISABLE KEYS */;
@@ -230,13 +230,13 @@ INSERT INTO `Viewing` VALUES ('CR56','PA14','2001-05-24','too small'),('CR62','P
 
 UNLOCK TABLES;
 
---
+-- 
 -- Dumping events for database 'dreamhome'
---
+-- 
 
---
+-- 
 -- Dumping routines for database 'dreamhome'
---
+-- 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
